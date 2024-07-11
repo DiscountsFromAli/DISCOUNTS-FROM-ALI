@@ -10,13 +10,13 @@ body {
   font-size: 14px;
 }
 .fraim {
-  width: 1512px;
-  height: 982px;
+  width: 100vw; /* 100% від ширини вікна перегляду */
+  height: 100vh; /* 100% від висоти вікна перегляду */
   background: #FF6347;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   overflow: hidden;
 }
 .elipse2 {
