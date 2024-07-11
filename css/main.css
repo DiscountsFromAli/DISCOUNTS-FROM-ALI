@@ -10,8 +10,8 @@ body {
   font-size: 14px;
 }
 .fraim {
-  width: 1512px;
-  height: 982px;
+  width: auto;
+  height: auto;
   background: #FF6347;
   opacity: 1;
   position: relative;
