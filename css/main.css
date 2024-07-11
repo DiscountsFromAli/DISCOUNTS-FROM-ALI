@@ -9,16 +9,70 @@
 body {
   font-size: 14px;
 }
+/* Базовий фрейм */
 .fraim {
-  width: auto;
-  height: auto;
+  width: 100%;
+  min-height: 100vh; /* мінімальна висота 100% від висоти вікна перегляду */
   background: #FF6347;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   overflow: hidden;
+  box-sizing: border-box;
 }
+
+/* Фрейм для великих екранів */
+@media (min-width: 769px) {
+  .fraim {
+    width: 1512px;
+    min-height: 982px;
+    background: #FF6347;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+}
+
+/* Фрейм для середніх екранів */
+@media (max-width: 768px) {
+  .fraim {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+/* Фрейм для мобільних пристроїв */
+@media (max-width: 480px) {
+  .fraim {
+    width: 100%;
+    min-height: 100vh;
+    background: #FF6347;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+}
+
+/* Додаткові налаштування для забезпечення прокрутки */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .elipse2 {
   width: 1453px;
   height: 1266px;
