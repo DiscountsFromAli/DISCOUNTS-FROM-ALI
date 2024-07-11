@@ -33,7 +33,6 @@ body {
     left: 0;
     overflow: hidden;
   }
-}
 
 /* Фрейм для середніх екранів */
 @media (max-width: 768px) {
@@ -41,7 +40,6 @@ body {
     width: 100vw;
     height: 100vh;
   }
-}
 
 /* Фрейм для мобільних пристроїв */
 @media (max-width: 480px) {
@@ -55,7 +53,6 @@ body {
     left: 0;
     overflow: hidden;
   }
-}
 
 .elipse2 {
   width: 1453px;
