@@ -10,15 +10,14 @@ body {
   font-size: 14px;
 }
 .fraim {
-  width: 100vw; /* 100% РІС–Рґ С€РёСЂРёРЅРё РІС–РєРЅР° РїРµСЂРµРіР»СЏРґСѓ */
-  height: 100vh; /* 100% РІС–Рґ РІРёСЃРѕС‚Рё РІС–РєРЅР° РїРµСЂРµРіР»СЏРґСѓ */
+  width: 1512px;
+  height: 982px;
   background: #FF6347;
   opacity: 1;
   position: relative;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
+  top: 0px;
+  left: 0px;
+  overflo
 
 .elipse2 {
   width: 1453px;
