@@ -10,8 +10,8 @@ body {
   font-size: 14px;
 }
 .fraim {
-  width: auto;
-  height: auto;
+  width: 1512px;
+  height: 982px;
   background: #FF6347;
   opacity: 1;
   position: relative;
@@ -19,23 +19,6 @@ body {
   left: 0px;
   overflow: hidden;
 }
-
-/* Додаткові налаштування для забезпечення прокрутки */
-body {
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
 .elipse2 {
   width: 1453px;
   height: 1266px;
