@@ -246,14 +246,14 @@ body {
 }
 /* Основний стиль для тексту */
 .main_text {
-  width: 826px;
+  width: 526px;
   color: #0C0B0B;
   position: absolute;
   top: 132px;
   left: 122px;
   font-family: Montserrat;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
   opacity: 1;
   text-align: left;
