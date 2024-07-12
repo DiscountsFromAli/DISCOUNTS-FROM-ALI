@@ -11,8 +11,8 @@ body {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 50%;
-  min-height: 50vh; /* мінімальна висота 100% від висоти вікна перегляду */
+  width: 1170px;
+  min-height: 953vh; /* мінімальна висота 100% від висоти вікна перегляду */
   background: #FF6347;
   opacity: 1;
   position: relative;
