@@ -16,17 +16,6 @@ body {
   background: #FF6347;
   opacity: 1;
   position: relative;
-  top: -90px;
-  left: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.action_fraim {
-  width: 100%;
-  min-height: 200px; /* мінімальна висота 100% від висоти вікна перегляду */
-  background: #FF6347;
-  opacity: 0.7;
-  position: relative;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -56,10 +45,10 @@ body {
   text-shadow: 2px 2px 20px #000000;
   color: #0C0B0B;
 }
-.promoblock-text{
-  font-weight: 800; /* Extra Bold */
-  font-size: 28px;
-  text-shadow: 1px 1px 1px #000000;
+.promoblock-text {
+  font-weight: 900; /* Extra Bold */
+  font-size: 30px;
+  text-shadow: 3px 3px 20px #FFFFFF;
   color: #0C0B0B;
 }
 
@@ -70,16 +59,16 @@ a.highlighted-text {
 }
 
 .action_logo {
-  width: 1400px;
+  width: 1350px;
   height: 100px;
   background: url("https://ae01.alicdn.com/kf/Scdb85398d4df48e08fdb2c41fec346c3Z.png_.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
+  opacity: 0.7;
   position: absolute;
-  top: 10px;
-  left: -250px;
+  top: 910;
+  left: -100px;
   overflow: hidden;
 }
 .elipse2 {
