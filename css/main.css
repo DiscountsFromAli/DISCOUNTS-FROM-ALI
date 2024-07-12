@@ -22,56 +22,9 @@ body {
   box-sizing: border-box;
 }
 
-/* Фрейм для великих екранів */
-@media (min-width: 769px) {
-  .fraim {
-    width: 1512px;
-    min-height: 982px;
-    background: #FF6347;
-    opacity: 1;
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-  }
-}
-
-/* Фрейм для середніх екранів */
-@media (max-width: 768px) {
-  .fraim {
-    width: 100%;
-    min-height: 100vh;
-  }
-}
-
-/* Фрейм для мобільних пристроїв */
-@media (max-width: 480px) {
-  .fraim {
-    width: 100%;
-    min-height: 100vh;
-    background: #FF6347;
-    opacity: 1;
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-  }
-}
-
-/* Додаткові налаштування для забезпечення прокрутки */
-body {
-  margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+/* Елементи всередині фрейму */
+.elipse2, .elipse_one, .v668_35, .coin_dwnrght, .coin_up, .v661_19, .v661_21, .v661_20, .v668_28, .v668_26, .v668_29, .v668_30, .v668_31, .v668_32, .cat_img, .tgchnl_block, .site_buttons {
+  position: absolute;
 
 .elipse2 {
   width: 1453px;
