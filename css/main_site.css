@@ -1,0 +1,572 @@
+
+  opacity: 1;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 45px;
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+/* Базовий фрейм */
+.fraim {
+  width: 100%;
+  min-height: 100vh; /* мінімальна висота 100% від висоти вікна перегляду */
+  background: #FF6347;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Елементи всередині фрейму */
+.elipse2, .elipse_one, .v668_35, .coin_dwnrght, .coin_up, .v661_19, .v661_21, .v661_20, .v668_28, .v668_26, .v668_29, .v668_30, .v668_31, .v668_32, .cat_img, .tgchnl_block, .site_buttons {
+  position: absolute;
+}
+.elipse2 {
+  width: 1453px;
+  height: 1266px;
+  background: #800000;
+  opacity: 0.3;
+  position: absolute;
+  top: -137px;
+  left: 500px;
+  border-radius: 50%;
+  transform: rotate(-100deg);
+}
+.elipse_one{
+  width: 1100px;
+  height: 1558px;
+  background: rgba(255,127,80,0.8999999761581421);
+  opacity: 1;
+  position: absolute;
+  top: -144px;
+  left: -300px;
+  border-radius: 70%;
+  transform: rotate(10deg);
+}
+.main_logo_block {
+  width: 552px;
+  height: 40px;
+  background: url("../images/v668_35.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  overflow: hidden;
+}
+/* Основний стиль для тексту */
+.main_text {
+  width: 726px;
+  height: 400px;
+  color: #0C0B0B;
+  position: absolute;
+  top: 132px;
+  left: 50px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Стиль для виділеного тексту */
+.highlighted-text {
+  font-weight: 800; /* Extra Bold */
+  color: #0C0B0B; /* Замініть на потрібний колір, якщо це інший колір для виділеного тексту */
+}
+a.highlighted-text {
+  text-decoration: underline;
+  color: none /* Використовує колір батьківського елемента */
+  font-weight: none; /* Зберігає вагу шрифту */
+}
+.alicats_main_logo {
+  width: 40px;
+  height: 40px;
+  background: url("../images/main_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+/*head*/
+.main_logo_text {
+  width: 826px;
+  color: rgba(251,246,246,1);
+  position: absolute;
+  top: 1px;
+  left: 52px;
+  text-shadow: 3px 3px 3px #000000;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.coin_dwnrght {
+  width: 150px;
+  height: 150px;
+  background: url("../images/v658_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 820px;
+  left: 1330px;
+  overflow: hidden;
+}
+.coin_up {
+  width: 125px;
+  height: 125px;
+  background: url("../images/v668_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 15px;
+  left: 840px;
+  overflow: hidden;
+}
+.coin1 {
+  width: 120px;
+  height: 120px;
+  background: url("../images/v661_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 700px;
+  left: 890px;
+  overflow: hidden;
+}
+.coin2_right {
+  width: 110px;
+  height: 110px;
+  background: url("../images/v661_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 850px;
+  left: 940px;
+  overflow: hidden;
+}
+.coin3_right {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v661_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 570px;
+  left: 1350px;
+  overflow: hidden;
+}
+.v668_28 {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v668_28.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  overflow: hidden;
+}
+.coin_downleft {
+  width: 100px;
+  height: 100px;
+  background: url("../images/v668_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 857px;
+  left: 28px;
+  overflow: hidden;
+}
+.coinsmall_right {
+  width: 54px;
+  height: 44px;
+  background: url("../images/v668_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 905px;
+  left: 1187px;
+  overflow: hidden;
+}
+.v668_30 {
+  width: 54px;
+  height: 44px;
+  background: url("../images/v668_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 900px;
+  left: 786px;
+  overflow: hidden;
+}
+.v668_31 {
+  width: 54px;
+  height: 44px;
+  background: url("../images/v668_31.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 760px;
+  left: 746px;
+  overflow: hidden;
+}
+.v668_32 {
+  width: 54px;
+  height: 44px;
+  background: url("../images/v668_32.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 920px;
+  left: 650px;
+  overflow: hidden;
+}
+.cat_img {
+  width: 600px;
+  height: 60%;
+  background: url("../images/v661_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  top: 414px;
+  left: 69px;
+  overflow: hidden;
+}
+
+/* блок телеграм канали */
+.tgchnl_block {
+  width: 404px;
+  height: 1077px;
+  background: url("../images/v759_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 800px;
+  overflow: hidden;
+}
+/*  */
+}
+.name {
+  color: #fff;
+}
+.tgchnl_text {
+  width: 404px;
+  color: #FFFFFF;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-shadow: 3px 3px 0px #000000;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.alicats_logo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/alicats_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 2px 2px 1px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 49px;
+  left: 130px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.shara_logo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/shara_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 2px 2px 1px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 49px;
+  left: 210px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.coupons_logo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/coupons_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 2px 2px 1px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 49px;
+  left: 285px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  }
+
+.site_buttons_block {
+  position: relative; /* Додайте це, щоб встановити контекст позиціонування */
+  top: 204px;
+  left: 830px;
+}
+
+.block-link {
+    display: block; /* Забезпечує, що посилання обгортає весь блок */
+    color: inherit; /* Використовує колір батьківського елемента */
+    text-decoration: none; /* Видаляє підкреслення */
+}
+
+.block-link:hover {
+    text-decoration: none; /* Забезпечує, що підкреслення не з'являється при наведенні */
+}
+.coins_block {
+  width: 325px;
+  height: 97px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/*COINS SALE*/
+.v668_36 {
+  width: 261px;
+  height: 50px;
+  color: #FFFFFF;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-shadow: 5px 5px 5px #0C0B0B;
+  font-family: Montserrat, Black;
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v672_49 {
+  width: 320px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.night_block {
+  width: 322px;
+  height: 97px;
+  background: url("../images/v708_57.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  overflow: hidden;
+}
+/*NIGHT SALE*/
+.v668_39 {
+  width: 261px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0;
+  left: 0;
+  text-shadow: 5px 5px 5px rgba(0.04583333432674408, 0.04487847164273262, 0.04487847164273262, 1);
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v672_50 {
+  width: 320px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 45px;
+  left: 2px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.coupon_block {
+  width: 322px;
+  height: 97px;
+  background: url("../images/v708_58.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 220px;
+  left: 0;
+  overflow: hidden;
+}
+/*COUPONS*/
+.v672_43 {
+  width: 261px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-shadow: 5px 5px 5px rgba(0.04583333432674408, 0.04487847164273262, 0.04487847164273262, 1);
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: left;
+}
+.v672_51 {
+  width: 320px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 45px;
+  left: 2px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.coinsbot_block {
+  width: 322px;
+  height: 171px;
+  background: url("../images/v708_59.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 330px;
+  left: 0;
+  overflow: hidden;
+}
+/*COINS BOT*/
+.coins_bot {
+  width: 261px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-shadow: 5px 5px 5px rgba(0.04583333432674408, 0.04487847164273262, 0.04487847164273262, 1);
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.coin_bot_text {
+  width: 320px;
+  top: 45px;
+  left: 2px;
+  position: absolute;
+  color: rgba(255,255,255,1);
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.pedro_block {
+  width: 320px;
+  height: 171px;
+  background: url("../images/v708_60.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 510px;
+  left: 0;
+  overflow: hidden;
+}
+.pedro_bot {
+  width: 261px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-shadow: 5px 5px 5px rgba(0.04583333432674408, 0.04487847164273262, 0.04487847164273262, 1);
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.pedro_text {
+  width: 320px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
