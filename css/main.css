@@ -23,8 +23,9 @@ body {
 }
 
 /* Елементи всередині фрейму */
-.elipse2, .elipse_one, .v668_35, .coin_dwnrght, .coin_up, .v661_19, .v661_21, .v661_20, .v668_28, .v668_26, .v668_29, .v668_30, .v668_31, .v668_32, .cat_img, .tgchnl_block, .site_buttons {
+elipse2, .elipse_one, .v668_35, .coin_dwnrght, .coin_up, .v661_19, .v661_21, .v661_20, .v668_28, .v668_26, .v668_29, .v668_30, .v668_31, .v668_32, .cat_img, .tgchnl_block, .site_buttons {
   position: absolute;
+}
 
 .elipse2 {
   width: 1453px;
