@@ -15,7 +15,7 @@ body {
 /* Базовий фрейм */
 .fraim {
   width: 100vw;
-  height: 100%px;
+  height: 2310px;
   background: #FF6347;
   opacity: 1;
   position: relative;
@@ -29,7 +29,56 @@ body {
 .elipse2, .elipse_one, .elipse_3.cat_img, .tgchnl_block, .site_buttons {
   position: absolute;
 }
+/* Додаткові стилі для мобільних пристроїв */
+@media (max-width: 768px) {
+  .fraim {
+    height: auto; /* Налаштуйте висоту відповідно до контенту */
+  }
 
+  .cat_img {
+    width: 100%;
+    height: auto;
+    top: 100px; /* Приклад зміни позиції для мобільних пристроїв */
+    left: 0;
+  }
+
+  .tgchnl_block {
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
+    top: 200px; /* Налаштуйте відповідно до контенту */
+  }
+
+  .site_buttons {
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
+    top: 300px; /* Налаштуйте відповідно до контенту */
+  }
+
+  /* Додаткові налаштування для інших елементів */
+}
+
+/* Стилі для ще менших екранів, наприклад, смартфонів */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .cat_img {
+    width: 100%;
+    height: auto;
+    top: 80px; /* Приклад зміни позиції для маленьких екранів */
+  }
+
+  .tgchnl_block, .site_buttons {
+    width: 100%;
+    left: 0;
+    top: auto; /* Налаштуйте відповідно до контенту */
+  }
+
+  /* Додаткові налаштування для інших елементів */
+}
 /* Стиль для виділеного тексту */
 .highlighted-text {
   font-weight: 900; /* Extra Bold */
@@ -266,6 +315,9 @@ a.highlighted-text {
   display: flex;
   align-items: left;
 }
+.date-text {
+  font-size: 20px; /* Стилізація тексту дати */
+}
 .promocode-main {
   font-weight: 900; /* Extra Bold */
   font-size: 36px;
@@ -281,7 +333,8 @@ a.highlighted-text {
 .code-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: left;
+  margin-bottom: 5px;
 }
 
 .code-item {
@@ -291,17 +344,15 @@ a.highlighted-text {
 }
 
 .code_logo {
-  width: 20px;
-  height: 20px;
+  width:25px; /* Розмір іконки */
+  height: 25px;
   background: url("https://cdn0.iconfinder.com/data/icons/miscellaneous-74-line/128/promocode_advertising_coupon_tag_label_voucher_code_clearance_discount_-60.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-right: 8px;
+  margin-right: 16px; /* Відстань між іконкою і текстом */
 }
-.date-text {
-  font-size: 20px; /* Стилізація тексту дати */
-}
+
 .code-text {
   font-size: 26px;
   font-weight: lighter;
@@ -314,11 +365,6 @@ a.highlighted-text {
   font-weight: bold;
   display: inline-block;
 
-}
-.code-text, .code-sum, .date-text {
-  font-size: 26px;
-  font-weight: 200; /* Тонкий шрифт */
-  display: inline-block;
 }
 .sum_logo {
   width:30px; /* Розмір іконки */
