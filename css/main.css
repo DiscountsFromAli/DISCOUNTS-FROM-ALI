@@ -266,9 +266,6 @@ a.highlighted-text {
   display: flex;
   align-items: left;
 }
-.date-text {
-  font-size: 20px; /* Стилізація тексту дати */
-}
 .promocode-main {
   font-weight: 900; /* Extra Bold */
   font-size: 36px;
@@ -284,8 +281,7 @@ a.highlighted-text {
 .code-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin-bottom: 5px;
+  align-items: start;
 }
 
 .code-item {
@@ -295,27 +291,19 @@ a.highlighted-text {
 }
 
 .code_logo {
-  width:25px; /* Розмір іконки */
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background: url("https://cdn0.iconfinder.com/data/icons/miscellaneous-74-line/128/promocode_advertising_coupon_tag_label_voucher_code_clearance_discount_-60.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-right: 16px; /* Відстань між іконкою і текстом */
+  margin-right: 8px;
 }
 
-.code-text {
+.code-text, .code-sum, .date-text {
   font-size: 26px;
-  font-weight: lighter;
+  font-weight: 200; /* Тонкий шрифт */
   display: inline-block;
-  color: #FFFF00
-}
-
-.code-sum {
-  font-size: 26px;
-  font-weight: bold;
-  display: inline-block;
-
 }
 .sum_logo {
   width:30px; /* Розмір іконки */
