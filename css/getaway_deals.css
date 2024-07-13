@@ -6,12 +6,15 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 /* Базовий фрейм */
 .fraim {
-  width: 100%;
+  width: 100vw;
   height: 1282px;
   background: #FF6347;
   opacity: 1;
