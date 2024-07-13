@@ -11,7 +11,7 @@ body {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 100%;
+  width: 70%;
   min-height: 100vh; /* мінімальна висота 100% від висоти вікна перегляду */
   background: #FF6347;
   opacity: 1;
@@ -29,8 +29,8 @@ body {
 /* Стиль для виділеного тексту */
 .highlighted-text {
   font-weight: 900; /* Extra Bold */
-  font-size: 28px;
-  text-shadow: 2px 2px 20px #FFFFFF;
+  font-size: 44px;
+  text-shadow: 2px 2px 10px #FFFFFF;
   color: #FFFF00; /* Замініть на потрібний колір, якщо це інший колір для виділеного тексту */
 }
  .highlighted-text1 {
@@ -40,13 +40,13 @@ body {
   color: #0C0B0B;
 }
 .tin-text {
-  font-weight: 300; /* Extra Bold */
-  font-size: 28px;
-  text-shadow: 2px 2px 20px #000000;
+  font-weight: 500; /* Extra Bold */
+  font-size: 20px;
+  text-shadow: 2px 2px 10px #000000;
   color: #0C0B0B;
 }
 .promoblock-text {
-  font-weight: 900; /* Extra Bold */
+  font-weight: 700; /* Extra Bold */
   font-size: 30px;
   text-shadow: 3px 3px 20px #FFFFFF;
   color: #0C0B0B;
@@ -58,19 +58,6 @@ a.highlighted-text {
   font-weight: none; /* Зберігає вагу шрифту */
 }
 
-.action_logo {
-  width: 1350px;
-  height: 100px;
-  background: url("https://ae01.alicdn.com/kf/Scdb85398d4df48e08fdb2c41fec346c3Z.png_.webp");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 0.7;
-  position: absolute;
-  top: 910;
-  left: -100px;
-  overflow: hidden;
-}
 .elipse2 {
   width: 1453px;
   height: 1266px;
@@ -89,7 +76,7 @@ a.highlighted-text {
   opacity: 1;
   position: absolute;
   top: -144px;
-  left: -400px;
+  left: -380px;
   border-radius: 70%;
   transform: rotate(10deg);
 }
@@ -121,6 +108,31 @@ a.highlighted-text {
   opacity: 1;
   text-align: left;
   line-height: 1.5;
+}
+
+.main_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 550px;
+  height: 70px;
+  background: url("https://ae01.alicdn.com/kf/S00215c8c687244e5b6c9c74ef6654b1a0.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: relative;
+  overflow: hidden;
+}
+.main_uapagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 550px;
+  height: 70px;
+  background: url("https://ae01.alicdn.com/kf/S63e19090d9f74d799e2330ea502d3dbcB.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: relative;
+  overflow: hidden;
 }
 
 .alicats_main_logo {
@@ -254,7 +266,7 @@ a.highlighted-text {
 
 .site_buttons_block {
   position: relative; /* Додайте це, щоб встановити контекст позиціонування */
-  top: 250px;
+  top: 200px;
   left: 750px;
 }
 
