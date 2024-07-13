@@ -299,7 +299,22 @@ a.highlighted-text {
   background-size: cover;
   margin-right: 8px;
 }
+.date-text {
+  font-size: 20px; /* Стилізація тексту дати */
+}
+.code-text {
+  font-size: 26px;
+  font-weight: lighter;
+  display: inline-block;
+  color: #FFFF00
+}
 
+.code-sum {
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+
+}
 .code-text, .code-sum, .date-text {
   font-size: 26px;
   font-weight: 200; /* Тонкий шрифт */
