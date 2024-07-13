@@ -16,7 +16,7 @@ body, .fraim {
 .code-container, .code-item, .sumlogo-container, .date-container {
     max-width: 100%; /* Встановіть максимальну ширину для контейнерів */
 }
-@media (max-width: 1000px;) {
+@media (max-width: 100%;) {
     .code-container {
         flex-direction: column;
         align-items: flex-start;
@@ -32,7 +32,7 @@ img, .code_logo, .sum_logo, .calendar_logo {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 100%;
+  width: 70%;
   height: 2310px;
   background: #FF6347;
   opacity: 1;
