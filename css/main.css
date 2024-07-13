@@ -29,56 +29,7 @@ body {
 .elipse2, .elipse_one, .elipse_3.cat_img, .tgchnl_block, .site_buttons {
   position: absolute;
 }
-/* Додаткові стилі для мобільних пристроїв */
-@media (max-width: 768px) {
-  .fraim {
-    height: auto; /* Налаштуйте висоту відповідно до контенту */
-  }
 
-  .cat_img {
-    width: 100%;
-    height: auto;
-    top: 100px; /* Приклад зміни позиції для мобільних пристроїв */
-    left: 0;
-  }
-
-  .tgchnl_block {
-    width: 90%;
-    margin: 0 auto;
-    left: 5%;
-    top: 200px; /* Налаштуйте відповідно до контенту */
-  }
-
-  .site_buttons {
-    width: 90%;
-    margin: 0 auto;
-    left: 5%;
-    top: 300px; /* Налаштуйте відповідно до контенту */
-  }
-
-  /* Додаткові налаштування для інших елементів */
-}
-
-/* Стилі для ще менших екранів, наприклад, смартфонів */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-
-  .cat_img {
-    width: 100%;
-    height: auto;
-    top: 80px; /* Приклад зміни позиції для маленьких екранів */
-  }
-
-  .tgchnl_block, .site_buttons {
-    width: 100%;
-    left: 0;
-    top: auto; /* Налаштуйте відповідно до контенту */
-  }
-
-  /* Додаткові налаштування для інших елементів */
-}
 /* Стиль для виділеного тексту */
 .highlighted-text {
   font-weight: 900; /* Extra Bold */
