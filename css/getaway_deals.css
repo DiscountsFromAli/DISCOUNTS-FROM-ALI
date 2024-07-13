@@ -11,7 +11,7 @@ body {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 1212px;
+  width: 50%;
   height: 982px;
   background: #FF6347;
   opacity: 1;
