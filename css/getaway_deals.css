@@ -15,7 +15,7 @@ body {
 /* Базовий фрейм */
 .fraim {
   width: 100vw;
-  height: 1282px;
+  height: 2310px;
   background: #FF6347;
   opacity: 1;
   position: relative;
@@ -39,8 +39,15 @@ body {
  .highlighted-text1 {
   font-weight: 700; /* Extra Bold */
   font-size: 30px;
-  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
-  color: #0C0B0B;
+  text-shadow: 1px 1px 0.7px #FFFFFF;
+  color: #F5F5DC;
+  line-height: 1.5;
+}
+.highlighted-text2 {
+  font-weight: 500; /* Extra Bold */
+  font-size: 40px;
+  text-shadow: 0.7px 0.7px 0.7px #000000;
+  color: #F5F5DC;
   line-height: 1.5;
 }
 .tin-text {
@@ -51,9 +58,9 @@ body {
 }
 .promoblock-text {
   font-weight: 700; /* Extra Bold */
-  font-size: 26px;
-  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
-  color: #0C0B0B;
+  font-size: 30px;
+  text-shadow: 0.7px 0.7px 0.7px #000000;
+  color: #FFFFE0;
 }
 
 a.highlighted-text {
@@ -63,17 +70,17 @@ a.highlighted-text {
 }
 
 .elipse2 {
-  width: 1453px;
-  height: 1266px;
+  width: 2153px;
+  height: 2166px;
   background: #800000;
   opacity: 0.3;
   position: absolute;
-  top: -137px;
-  left: 250px;
+  top: -237px;
+  left: 20px;
   border-radius: 50%;
   transform: rotate(-100deg);
 }
-.elipse_one{
+.elipse_one {
   width: 1100px;
   height: 1558px;
   background: rgba(255,127,80,0.8999999761581421);
@@ -81,6 +88,17 @@ a.highlighted-text {
   position: absolute;
   top: -144px;
   left: -380px;
+  border-radius: 70%;
+  transform: rotate(10deg);
+}
+.elipse_3 {
+  width: 3000px;
+  height: 2058px;
+  background: #F4A460;
+  opacity: 1;
+  position: absolute;
+  top: 1224px;
+  left: -580px;
   border-radius: 70%;
   transform: rotate(10deg);
 }
@@ -95,6 +113,52 @@ a.highlighted-text {
   position: absolute;
   top: 40px;
   left: 50px;
+  overflow: hidden;
+}
+
+.alicats_main_logo {
+  width: 40px;
+  height: 40px;
+  background: url("../images/main_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+/*head*/
+.main_logo_text {
+  width: 826px;
+  color: rgba(251,246,246,1);
+  position: absolute;
+  top: 1px;
+  left: 52px;
+  text-shadow: 3px 3px 3px #000000;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.cat_img {
+  width: 250px;
+  height: 250px;
+  background: url("../images/v661_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: fixed; /* Змінено з absolute на fixed */
+  top: 200px;
+  left: 580px;
   overflow: hidden;
 }
 /* Основний стиль для тексту */
@@ -182,47 +246,84 @@ a.highlighted-text {
   margin-bottom: 10px;
   overflow: hidden;
 }
-
-.alicats_main_logo {
-  width: 40px;
-  height: 40px;
-  background: url("../images/main_logo.png");
+.calendar_logo {
+  width: 20px; /* Зменшити розмір іконки */
+  height: 20px;
+  background: url("https://cdn4.iconfinder.com/data/icons/essentials-71/24/011_-_Calendar-60.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  margin-right: 16px; /* Відстань між іконкою і текстом */
 }
-/*head*/
-.main_logo_text {
-  width: 826px;
-  color: rgba(251,246,246,1);
-  position: absolute;
-  top: 1px;
-  left: 52px;
+
+.date-container {
+  display: flex;
+  align-items: center;
+}
+.sumlogo-container {
+  display: flex;
+  align-items: left;
+}
+.date-text {
+  font-size: 20px; /* Стилізація тексту дати */
+}
+.promocode-main {
+  font-weight: 900; /* Extra Bold */
+  font-size: 36px;
   text-shadow: 3px 3px 3px #000000;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 32px;
-  opacity: 1;
-  text-align: left;
+  color: #FFFFFF;
+}
+.promocode-text {
+  font-weight: 500; /* Extra Bold */
+  font-size: 18px;
+  text-shadow: 0px 0px 0px #FFFFFF;
+  color: #000000;
+}
+.code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 5px;
 }
 
-.cat_img {
-  width: 600px;
-  height: 50%;
-  background: url("../images/v661_11.png");
+.code-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px; /* Відстань між елементами */
+}
+
+.code_logo {
+  width:25px; /* Розмір іконки */
+  height: 25px;
+  background: url("https://cdn0.iconfinder.com/data/icons/miscellaneous-74-line/128/promocode_advertising_coupon_tag_label_voucher_code_clearance_discount_-60.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0.7;
-  position: absolute;
-  top: 390px;
-  left: 330px;
-  overflow: hidden;
+  margin-right: 16px; /* Відстань між іконкою і текстом */
+}
+
+.code-text {
+  font-size: 26px;
+  font-weight: lighter;
+  display: inline-block;
+  color: #FFFF00
+}
+
+.code-sum {
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+.sum_logo {
+  width:30px; /* Розмір іконки */
+  height: 30px;
+  background: url("https://cdn0.iconfinder.com/data/icons/business-1746/32/Income-60.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 10px; /* Відстань між іконкою і текстом */
 }
 
 /* блок телеграм канали */
@@ -252,14 +353,14 @@ a.highlighted-text {
   left: 50px;
   text-shadow: 3px 3px 0px #000000;
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 24px;
   opacity: 1;
   text-align: left;
 }
 .alicats_logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background: url("../images/alicats_logo.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -269,15 +370,15 @@ a.highlighted-text {
   position: absolute;
   top: 49px;
   left: 180px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
   overflow: hidden;
 }
 .shara_logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background: url("../images/shara_logo.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -287,15 +388,15 @@ a.highlighted-text {
   position: absolute;
   top: 49px;
   left: 252px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
   overflow: hidden;
 }
 .coupons_logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background: url("../images/coupons_logo.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -305,16 +406,16 @@ a.highlighted-text {
   position: absolute;
   top: 49px;
   left: 330px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
   overflow: hidden;
   }
 
 .site_buttons_block {
   position: relative; /* Додайте це, щоб встановити контекст позиціонування */
-  top: 200px;
+  top: 220px;
   left: 810px;
 }
 
