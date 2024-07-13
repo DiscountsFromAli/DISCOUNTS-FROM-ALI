@@ -12,7 +12,7 @@ body {
 /* Базовий фрейм */
 .fraim {
   width: 70%;
-  height: 982px;
+  height: 1282px;
   background: #FF6347;
   opacity: 1;
   position: relative;
@@ -30,25 +30,26 @@ body {
 .highlighted-text {
   font-weight: 900; /* Extra Bold */
   font-size: 44px;
-  text-shadow: 2px 2px 10px #FFFFFF;
+  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
   color: #FFFF00; /* Замініть на потрібний колір, якщо це інший колір для виділеного тексту */
 }
  .highlighted-text1 {
   font-weight: 700; /* Extra Bold */
-  font-size: 28px;
-  text-shadow: 3px 3px 20px #FFFFFF;
+  font-size: 30px;
+  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
   color: #0C0B0B;
+  line-height: 1.5;
 }
 .tin-text {
   font-weight: 500; /* Extra Bold */
   font-size: 20px;
-  text-shadow: 2px 2px 10px #000000;
+  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
   color: #0C0B0B;
 }
 .promoblock-text {
   font-weight: 700; /* Extra Bold */
-  font-size: 30px;
-  text-shadow: 3px 3px 20px #FFFFFF;
+  font-size: 26px;
+  text-shadow: 0.7px 0.7px 0.7px #FFFFFF;
   color: #0C0B0B;
 }
 
@@ -118,8 +119,13 @@ a.highlighted-text {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 1;
   position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 .main_uapagelink {
@@ -130,8 +136,47 @@ a.highlighted-text {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 1;
   position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.main_bestsellers {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 550px;
+  height: 70px;
+  background: url("https://ae01.alicdn.com/kf/S6f06b251bdef4042b154099f7e29b75es.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.main_uabestsellers {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 550px;
+  height: 70px;
+  background: url("https://ae01.alicdn.com/kf/S5c54df7d6f054e27ba153b2a2aaf13056.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 
@@ -165,15 +210,15 @@ a.highlighted-text {
 
 .cat_img {
   width: 600px;
-  height: 60%;
+  height: 50%;
   background: url("../images/v661_11.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 0.7;
   position: absolute;
-  top: 414px;
-  left: 69px;
+  top: 390px;
+  left: 330px;
   overflow: hidden;
 }
 
@@ -188,7 +233,7 @@ a.highlighted-text {
   opacity: 1;
   position: absolute;
   top: 41px;
-  left: 700px;
+  left: 675px;
   overflow: hidden;
 }
 /*  */
@@ -201,7 +246,7 @@ a.highlighted-text {
   color: #FFFFFF;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 50px;
   text-shadow: 3px 3px 0px #000000;
   font-family: Montserrat;
   font-weight: 700;
@@ -220,11 +265,11 @@ a.highlighted-text {
   opacity: 1;
   position: absolute;
   top: 49px;
-  left: 130px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  left: 180px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   overflow: hidden;
 }
 .shara_logo {
@@ -238,11 +283,11 @@ a.highlighted-text {
   opacity: 1;
   position: absolute;
   top: 49px;
-  left: 210px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  left: 252px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   overflow: hidden;
 }
 .coupons_logo {
@@ -256,18 +301,18 @@ a.highlighted-text {
   opacity: 1;
   position: absolute;
   top: 49px;
-  left: 285px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  left: 330px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   overflow: hidden;
   }
 
 .site_buttons_block {
   position: relative; /* Додайте це, щоб встановити контекст позиціонування */
   top: 200px;
-  left: 750px;
+  left: 810px;
 }
 
 .block-link {
