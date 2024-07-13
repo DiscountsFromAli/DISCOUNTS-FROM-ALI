@@ -8,7 +8,7 @@
 }
 
 body, .fraim {
-    width: 100%;
+    width: 200%;
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Зменшує можливість горизонтальної прокрутки */
@@ -32,7 +32,7 @@ img, .code_logo, .sum_logo, .calendar_logo {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 100vw;
+  width: 200vw;
   height: 2310px;
   background: #FF6347;
   opacity: 1;
