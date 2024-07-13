@@ -16,7 +16,7 @@ body, .fraim {
 .code-container, .code-item, .sumlogo-container, .date-container {
     max-width: 100%; /* Встановіть максимальну ширину для контейнерів */
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .code-container {
         flex-direction: column;
         align-items: flex-start;
