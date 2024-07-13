@@ -29,11 +29,31 @@ body {
 .elipse2, .elipse_one, .elipse_3.cat_img, .tgchnl_block, .site_buttons {
   position: absolute;
 }
-/* Додаткові стилі для мобільних пристроїв */
-@media (max-width: 768px) {
-  .fraim {
-    height: auto; /* Налаштуйте висоту відповідно до контенту */
-  }
+.code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.code-item, .sumlogo-container, .date-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.code_logo, .sum_logo, .calendar_logo {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.code-text, .code-sum, .date-text {
+    font-size: 14px;
+    font-weight: 400; /* Тонкий шрифт */
 
   .cat_img {
     width: 100%;
