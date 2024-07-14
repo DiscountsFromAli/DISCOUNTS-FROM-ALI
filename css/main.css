@@ -1,4 +1,4 @@
-  opacity: 1;
+ opacity: 1;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 45px;
@@ -25,7 +25,6 @@ body, .fraim {
         font-size: 12px; /* Зменшити шрифт для маленьких екранів */
     }
 }
-
 /* Базовий фрейм */
 .fraim {
   width: 300vw;
