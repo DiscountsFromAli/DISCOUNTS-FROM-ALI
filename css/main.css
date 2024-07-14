@@ -8,7 +8,7 @@
 }
 
 body, .fraim {
-    width: 200%;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Зменшує можливість горизонтальної прокрутки */
@@ -16,7 +16,7 @@ body, .fraim {
 .code-container, .code-item, .sumlogo-container, .date-container {
     max-width: 100%; /* Встановіть максимальну ширину для контейнерів */
 }
-@media (max-width: 1200px) {
+@media (max-width: 910px) {
     .code-container {
         flex-direction: column;
         align-items: flex-start;
@@ -32,8 +32,8 @@ img, .code_logo, .sum_logo, .calendar_logo {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 300vw;
-  height: 2310px;
+  width: 250vw;
+  height: 2290px;
   background: #FF6347;
   opacity: 1;
   position: relative;
