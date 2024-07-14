@@ -32,7 +32,7 @@ img, .code_logo, .sum_logo, .calendar_logo {
 }
 /* Базовий фрейм */
 .fraim {
-  width: 200vw;
+  width: 300vw;
   height: 2310px;
   background: #FF6347;
   opacity: 1;
